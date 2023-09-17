@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RewardsActivity">
+
+    <TextView
+        android:id="@+id/textViewKgsDumped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Total Kgs of Waste Dumped:"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextKgsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewKgsDumped"
+        android:layout_marginTop="88dp"
+        android:hint="Enter Kgs Dumped"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCheckout"
+        android:layout_width="169dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/editTextKgsInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="115dp"
+        android:text="Checkout"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewPerKg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Per Kg: Rs. 5"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

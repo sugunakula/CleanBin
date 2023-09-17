@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CleanBin</string>
+    <string name="waste_info_content">
+    <![CDATA[
+    Besides the classification based on their sources of origin, such as Solid waste, Liquid waste, and Gaseous waste also waste can be classified as biodegradable and non-biodegradable. In general, the waste might be ordered into the accompanying classes:
+
+    Solid Waste – These are the undesirable substances that are disposed of by human culture. This includes metropolitan, rural, biomedical, and radioactive waste.
+
+    Liquid Waste - Wastes created from washing, flushing, or fabricating cycles of ventures are called fluid wastes.
+
+    Gaseous Waste – These are the wastes delivered as gases from cars, plants, or consuming non-renewable energy sources like oil. They get blended in different gaseous climates and sporadically cause occasions like brown haze and corrosive downpour.
+    ]]>
+</string>
+
+</resources>
